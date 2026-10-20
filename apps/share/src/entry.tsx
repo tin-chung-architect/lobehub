@@ -1,3 +1,6 @@
+// The boot CSS that compiled StyleX rules are appended to, as in app/root.tsx.
+import '@/styles/stylex.css';
+
 import { RouterProvider } from 'react-router/dom';
 
 import BootErrorBoundary from '@/components/BootErrorBoundary';
